@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 85.568 s <<< FAILURE! - in TestSuite
+com.inetBanking.testCases.TC_LoginTest_001.LoginTest  Time elapsed: 8.745 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.inetBanking.testCases.TC_LoginTest_001.LoginTest(TC_LoginTest_001.java:31)
+
+com.inetBanking.testCases.TC_LoginDDT_002.LoginDDT[mngr281114, rasApAd](2)  Time elapsed: 6.169 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.inetBanking.testCases.TC_LoginDDT_002.LoginDDT(TC_LoginDDT_002.java:28)
+
+com.inetBanking.testCases.TC_LoginDDT_002.LoginDDT[mngr281344, rasApAd](4)  Time elapsed: 6.699 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.inetBanking.testCases.TC_LoginDDT_002.LoginDDT(TC_LoginDDT_002.java:28)
+
+com.inetBanking.testCases.TC_LoginDDT_002.LoginDDT[null, null](6)  Time elapsed: 0.023 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at com.inetBanking.testCases.TC_LoginDDT_002.LoginDDT(TC_LoginDDT_002.java:18)
+
